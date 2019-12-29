@@ -1,0 +1,1 @@
+{"testName":{"quantity":10,"size":null,"price":2.22,"promotionalPricePercent":1.0,"description":"test description","minimumPrice":1.0}}
