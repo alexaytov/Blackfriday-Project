@@ -258,6 +258,7 @@ public class ClientThread implements Runnable {
                     case "earnings date":
                         LocalDate date = (LocalDate) this.objectInputStream.readObject();
                         this.objectOutputStream.writeObject(store.getEarnings(date));
+                        break;
                     case "earnings year": {
                         int year = (int) this.objectInputStream.readObject();
                         this.objectOutputStream.writeObject(store.getEarnings(year));
